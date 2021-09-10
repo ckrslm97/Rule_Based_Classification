@@ -1,3 +1,3 @@
 # Kural_Tabanli_Siniflandirma
 
-pandas kütüphanesini kullanarak müşteri segmentasyonu ve müşterilerin ortalama ne kadar kazandırabileceğini tahmin etme.
+Makine Öğrenmesi kullanmadan pandas kütüphanesinden yararlanarak müşteri segmentasyonu ve müşterilerin ortalama ne kadar kazandırabileceğini tahmin etme.
