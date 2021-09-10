@@ -125,7 +125,7 @@ agg_df.head()
 agg_df["customers_level_based"].value_counts()
 agg_df.head()
 
-# yeni müşterileri (personları) segmente ayırma
+# yeni müşterileri (personaları) segmente ayırma
 agg_df["SEGMENT"] = pd.qcut(agg_df["PRICE"], 4, labels=["D", "C", "B", "A"])
 print(agg_df.head(30))
 agg_df.groupby("SEGMENT").agg({"PRICE": "mean"})
