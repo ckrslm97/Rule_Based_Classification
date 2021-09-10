@@ -133,10 +133,10 @@ print(agg_df[agg_df["SEGMENT"] == "C"])
 
 #Yeni gelen müşterilere segmentlerine göre sınıflandırma ve getirebileceği geliri tahmin etme
 
-# 33 yaşında ANDROID kullanan bir Türk kadınının ait olduğu segmenti bulma
+# 33 yaşında ANDROID kullanan bir Türk kadının ait olduğu segmenti bulma
 new_user = "TUR_ANDROID_FEMALE_31_40"
 agg_df[agg_df["customers_level_based"] == new_user]
 
-# 35 yaşında IOS kullanan bir Fransız kadınının ait olduğu segmenti bulma
+# 35 yaşında IOS kullanan bir Fransız kadının ait olduğu segmenti bulma
 new_user = "FRA_IOS_FEMALE_31_40"
 agg_df[agg_df["customers_level_based"] == new_user]
