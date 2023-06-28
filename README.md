@@ -1,3 +1,3 @@
-# Kural Tabanli Siniflandirma
+# Rule Based Classification
 
-Makine Öğrenmesi kullanmadan pandas kütüphanesinden yararlanarak müşteri segmentasyonu ve müşterilerin ortalama ne kadar kazandırabileceğini tahmin etme.
+Customer segmentation and predicting how much customers can earn on average using the Pandas library without using Machine Learning.
